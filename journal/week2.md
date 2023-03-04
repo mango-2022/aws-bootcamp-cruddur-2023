@@ -39,4 +39,11 @@ gp env AWS_REGION="ca-central-1"
 
 ![image](https://user-images.githubusercontent.com/93061568/222870447-c699e322-4cf4-43e5-903a-a3bc416ba4c6.png)
 
+![image](https://user-images.githubusercontent.com/93061568/222873353-2ac4a3a7-5c9d-49ee-b9ef-0d38c80332b4.png)
+
+![image](https://user-images.githubusercontent.com/93061568/222873347-93766ba1-2e16-4dac-b20d-7d196e29a24b.png)
+
+#### Start a custom segment/subsegment
+![image](https://user-images.githubusercontent.com/93061568/222875924-5f045e58-c965-4da3-989a-b32b9089e545.png)
+
 
