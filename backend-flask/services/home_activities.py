@@ -5,6 +5,9 @@ tracer = trace.get_tracer("home.activities")
 
 class HomeActivities:
   def run():
+  # disable cloudwatch logs for cost budget concern
+  # def run(logger):
+    # logger.info('Hello Cloudwatch! from  /api/activities/home')
     with tracer.start_as_current_span("home-activities-data"):
       span = trace.get_current_span()
       now = datetime.now(timezone.utc).astimezone()
