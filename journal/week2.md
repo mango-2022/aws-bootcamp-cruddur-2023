@@ -46,4 +46,25 @@ gp env AWS_REGION="ca-central-1"
 #### Start a custom segment/subsegment
 ![image](https://user-images.githubusercontent.com/93061568/222875924-5f045e58-c965-4da3-989a-b32b9089e545.png)
 
+## CloudWatch Logs
+#### Update `requirements.txt`
+```
+watchtower
+```
+![image](https://user-images.githubusercontent.com/93061568/222917551-f76bdc87-1dec-44f8-922c-7bf449169a9f.png)
+
+## Rollbar
+#### Update `requirements.txt`
+```
+blinker
+rollbar
+```
+![image](https://user-images.githubusercontent.com/93061568/222919129-4d494b73-09dd-4229-8993-1acce357c5e2.png)
+
+I can access the rollbar test only if I hardcode the ROLLBAR_ACCESS_TOKEN
+![image](https://user-images.githubusercontent.com/93061568/222920386-4270a31b-fc11-407d-bc2e-3f3d1f8fd201.png)
+
+![image](https://user-images.githubusercontent.com/93061568/222920368-cadc72bb-ee3e-4b19-933c-406e2866aa26.png)
+
+
 
