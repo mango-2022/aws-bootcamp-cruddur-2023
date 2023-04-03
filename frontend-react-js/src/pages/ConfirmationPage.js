@@ -8,7 +8,7 @@ import { Auth } from 'aws-amplify';
 export default function ConfirmationPage() {
   const [email, setEmail] = React.useState('');
   const [code, setCode] = React.useState('');
-  const [errors, setErrors] = React.useState('');
+  const [cognitoErrors, setCognitoErrors] = React.useState('');
   const [codeSent, setCodeSent] = React.useState(false);
 
   const params = useParams();
@@ -51,11 +51,10 @@ export default function ConfirmationPage() {
     return false
   }
 
-  let el_errors;
-  if (errors){
-    el_errors = <div className='errors'>{errors}</div>;
+  let errors;
+  if (cognitoErrors){
+    errors = <div className='errors'>{cognitoErrors}</div>;
   }
-
 
   let code_button;
   if (codeSent){
@@ -99,7 +98,7 @@ export default function ConfirmationPage() {
               />
             </div>
           </div>
-          {el_errors}
+          {errors}
           <div className='submit'>
             <button type='submit'>Confirm Email</button>
           </div>
